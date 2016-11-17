@@ -1,0 +1,19 @@
+Q: What’s happening?
+A: We are relocating ProjectLocker to a new group of servers over the next couple of months. We’re expecting the move to fix issues we’ve been having with our current physical environment, increase performance significantly for all customers and give us more flexibility as well to offer a broader range of services. 
+
+Q: Which users are getting migrated first?
+A: The first server we’re moving is PL3, so if your server name contains the number 3 in the URL you use to access it, you’ll be relocated the evening of Sunday, October 23. We’ll be scheduling a maintenance window from Oct. 23 at 11 PM GMT to Oct 24 at 6 AM GMT (Oct 23 at 7 PM EDT to Oct. 24 at 2 AM EDT) 
+We anticipate that your account will not be offline during the entirety of this window. However, you should plan on at least a few hours of unavailability during this maintenance window.
+
+Q: What do I have to do?
+A: Hopefully, nothing. Your URLs will not change and you’ll access ProjectLocker the way you always have. The IP addresses and host keys will change, so if you connect to any services via SSH, you may notice a complaint about your host key. We’ll be publishing the new SSL certificate fingerprint at 
+
+http://help.projectlocker.com/knowledge_base/topics/what-are-the-host-fingerprints-for-your-servers
+
+so you can verify it’s the right server.
+
+Q: How do I know my data is safe?
+A: We’ll be taking an offsite backup before making any permanent actions. We will also keep the original server online (but with services turned off) for about 2 weeks to ensure that the new location is functioning fully as expected and allow us to revert if something catastrophic happens.
+
+Q: Where do I go with questions?
+A: You can always contact us at support@projectlocker.com with any questions. We’ll also be posting at http://blog.projectlocker.com/ and providing updates on Twitter at @ProjectLockerHQ.
